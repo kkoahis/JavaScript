@@ -10,6 +10,7 @@
    - Math.max()   // lẩy ra giá trị max
 */
 
+
 console.log(Math.PI);
 console.log(Math.round(1.7));
 console.log(Math.abs(-123.5));
@@ -19,3 +20,8 @@ console.log(Math.random());
 console.log(Math.min(-11, 12, 124, 12312, -124124, 12));
 console.log(Math.max(-11, 12, 124, 12312, -124124, 12));
 
+// funtion getRanDomItem của 1 array
+function getRandomItem(array){
+   var randomItem = Math.floor(Math.random() * array.length);
+   return array[randomItem];
+}
